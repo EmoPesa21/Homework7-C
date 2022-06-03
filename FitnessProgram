@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main()
+{
+	bool strength = 0;
+	bool indurance = 1;
+	bool stamina = 0;
+if(strength){
+	printf("Lifting MAX weight, 6 reps!");
+} else if(indurance){
+	printf("Lifting weight around : 5-10 kg. for 20reps!");
+}else{
+	printf("Lift with weigh around: 20 kg. for 15reps!");
+}
+return 0;
+}
